@@ -36,6 +36,18 @@ body {
 .btn {
 	border-radius: 0.15em;
 }
+.btn-secondary { 
+	background-color: #ce5f31;
+	color: white;
+	border: 0;
+	margin-left: 10px;
+	transition: background-color 0.5s ease;
+
+}
+.btn-secondary:hover {
+	background-color: #990000;
+	color: white;
+}
 
 /* Alert */
 .alert {
@@ -65,6 +77,9 @@ body {
 /* Jumbotron */
 .jumbotron {
 	border-radius: 0;
+	background: url("../images/header-bike.jpg") no-repeat center; 
+	background-size: cover;
+	color: white;
 }
 
 /* Headings */
